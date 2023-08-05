@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # My apps
     'movies.apps.MoviesConfig',
+    'api.apps.ApiConfig',
     
     # Default apps
     'django.contrib.admin',
